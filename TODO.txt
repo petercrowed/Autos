@@ -1,0 +1,24 @@
+(Logging)
+Sprachauswahl (Halb fertig)
+Bug on Logged user if lanugage select The ComboBox doesnt work anymore
+Bug on FrLogin when the combox is Englisch
+Credits-Button hinzufügen (ruft MessageBox mit kurzer Info auf)
+Kommentare im Code
+--------------------------------------------------
+(Die Info Liste auf Kraftstoff, Geriebe, Ps kürzen(nur noch die werden angezeigt) und weitere
+	Infos nur über neuen Button anzeigen lassen)//ist glaube ich nicht nötig?
+
+
+
+
+Fertig-----------------------------------------------------------
+LogIn Button text auf deutsch stellen -> Anmelden und Abmelden
+Unter Infos aktuellen Verleihstatus hinzufügen. -> am beseten in RentList die methode 
+	private bool checkIfRentedToday(Car c)
+Neues Fenster zum zeigen des Gefundenen Users, mit Name, Adresse, Liste aller Reservierungen und Rents
+Icon
+
+----Ask Malte----
+
+Where are "Profil" settings located?
+For Example: Strasse, Ort for lanugae options. 

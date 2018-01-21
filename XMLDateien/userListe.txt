@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<userlist>
+	<user>
+		<admin>false</admin>
+		<username>Holmes</username>
+		<password>1234567</password>
+		<name>Thorsten Meyer</name>
+		<adress>
+			<street>Straße</street>
+			<housenr>16</housenr>
+			<plz>32339</plz>
+			<place>Orter</place>
+		</adress>
+	</user>
+	<user>
+		<admin>false</admin>
+		<username>Heap777</username>
+		<password>magicHeap321</password>
+		<name>Septimus Heap</name>
+		<adress>
+			<street>Langer Block</street>
+			<housenr>256</housenr>
+			<plz>32365</plz>
+			<place>Schloss</place>
+		</adress>
+	</user>
+	<user>
+		<admin>false</admin>
+		<username>Unruh</username>
+		<password>darquise</password>
+		<name>Walkühre Unruh</name>
+		<adress>
+			<street>Wahlberg</street>
+			<housenr>47</housenr>
+			<plz>35689</plz>
+			<place>Links</place>
+		</adress>
+	</user>
+	<user>
+		<admin>false</admin>
+		<username>PsSkull</username>
+		<password>123Skull</password>
+		<name>Skullduggery PLesant</name>
+		<adress>
+			<street>Wallstraße</street>
+			<housenr>19</housenr>
+			<plz>32478</plz>
+			<place>Niedersachsen</place>
+		</adress>
+	</user>
+	<user>
+		<admin>false</admin>
+		<username>Findus</username>
+		<password>321321</password>
+		<name>Peterson</name>
+		<adress>
+			<street>Milchstraße</street>
+			<housenr>16</housenr>
+			<plz>32345</plz>
+			<place>Galaxie</place>
+		</adress>
+	</user>
+	<user>
+		<admin>false</admin>
+		<username>DenDickson</username>
+		<password>7654321</password>
+		<name>Dennis Dickson</name>
+		<adress>
+			<street>Waldweg</street>
+			<housenr>6</housenr>
+			<plz>31359</plz>
+			<place>Weitweg</place>
+		</adress>
+	</user>
+	<user>
+		<admin>false</admin>
+		<username>SidoK</username>
+		<password>password123</password>
+		<name>Sido Kleinschmidt</name>
+		<adress>
+			<street>Langer Weg</street>
+			<housenr>1</housenr>
+			<plz>32339</plz>
+			<place>Tonnenheide</place>
+		</adress>
+	</user>
+	<user>
+		<admin>false</admin>
+		<username>Niki</username>
+		<password>00000</password>
+		<name>Niklas Peters</name>
+		<adress>
+			<street>Mindener Straße</street>
+			<housenr>192</housenr>
+			<plz>32339</plz>
+			<place>Espelkamp</place>
+		</adress>
+	</user>
+	<user>
+		<admin>false</admin>
+		<username>rm1992</username>
+		<password>123123</password>
+		<name>Richard Müller</name>
+		<adress>
+			<street>Tonnenheider Straße</street>
+			<housenr>162</housenr>
+			<plz>32339</plz>
+			<place>Espelkamp</place>
+		</adress>
+	</user>
+	<user>
+		<admin>true</admin>
+		<username>UserX</username>
+		<password>password</password>
+		<name>Julian Waßmann</name>
+		<adress>
+			<street>Hinter dem Hörsten</street>
+			<housenr>12</housenr>
+			<plz>32339</plz>
+			<place>Espelkamp</place>
+		</adress>
+	</user>
+	
+</userlist>

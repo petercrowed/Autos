@@ -1,0 +1,759 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<carlist>
+	<car>
+		<name>Impala</name>
+		<rent>false</rent>
+		<image>impala.5x22_ImpalaMain.jpg</image>
+		<image>impala.1967Impala_4.jpg</image>
+		<image>impala.supernatural-impala-0005.jpg</image>
+		<image>impala.c46241330321b50f5b4072063ec43ae1.jpg</image>
+		<infoDE>
+			<fuel>Benzin</fuel>
+			<gears>Automatik</gears>
+			<hp>325</hp>
+			<seats>4</seats>
+			<doors>4</doors>
+			<storage>Minden</storage>
+		</infoDE>
+		<infoENG>
+			<fuel>petrol</fuel>
+			<gears>automatic</gears>
+			<hp>325</hp>
+			<seats>4</seats>
+			<doors>4</doors>
+			<storage>Minden</storage>
+		</infoENG>
+  	</car>
+	<car>
+		<name>Chevelle</name>
+		<rent>false</rent>
+		<image>chevy.blue-1970-Chevy-Chevelle-SS-454-.png</image>
+		<image>chevy.1970-Chevrolet-Chevelle-SS-454-24.jpg</image>
+		<image>chevy.1970-Chevy-Chevelle-SS-454-.png</image>
+		<image>chevy.maxresdefault.jpg</image>
+		<infoDE>
+			<fuel>Benzin</fuel>
+			<gears>Automatik</gears>
+			<hp>250</hp>
+			<seats>4</seats>
+			<doors>2</doors>
+			<storage>Minden</storage>
+		</infoDE>
+		<infoENG>
+			<fuel>petrol</fuel>
+			<gears>automatic</gears>
+			<hp>250</hp>
+			<seats>4</seats>
+			<doors>2</doors>
+			<storage>Minden</storage>
+		</infoENG>
+  	</car>
+    	<car>
+    		<name>Porsche 911</name>
+      		<rent>false</rent>
+     		<image>porshe911.01-2017-porsche-911-targa-4-gts-fd-1.jpg</image>
+      		<image>porshe911.02-2017-porsche-911-targa-4-gts-fd-1.jpg</image>
+      		<image>porshe911.07-2017-porsche-911-targa-4-gts-fd-1.jpg</image>
+      		<image>porshe911.19-2017-porsche-911-targa-4-gts-fd-1.jpg</image>
+		<infoDE>
+			<fuel>Diesel</fuel>
+			<gears>Manuell</gears>
+			<hp>345</hp>
+			<seats>4</seats>
+			<doors>2</doors>
+			<storage>Minden</storage>
+		</infoDE>
+		<infoENG>
+			<fuel>diesel</fuel>
+			<gears>manual</gears>
+			<hp>345</hp>
+			<seats>4</seats>
+			<doors>2</doors>
+			<storage>Minden</storage>
+		</infoENG>
+	</car>
+	<car>
+		<name>Corvette</name>
+		<rent>false</rent>
+		<image>corvette.01-callaway-corvette-sc757-aerowagen-fd-1.jpg</image>
+		<image>corvette.02-callaway-corvette-sc757-aerowagen-fd-1.jpg</image>
+		<image>corvette.05-callaway-corvette-sc757-aerowagen-fd-1.jpg</image>
+		<image>corvette.11-callaway-corvette-sc757-aerowagen-fd-1.jpg</image>
+		<infoDE>
+			<fuel>Benzin</fuel>
+			<gears>Automatik</gears>
+			<hp>325</hp>
+			<seats>4</seats>
+			<doors>2</doors>
+			<storage>Minden</storage>
+		</infoDE>
+		<infoENG>
+			<fuel>petrol</fuel>
+			<gears>automatic</gears>
+			<hp>325</hp>
+			<seats>4</seats>
+			<doors>4</doors>
+			<storage>Minden</storage>
+		</infoENG>
+ </car>
+  
+	<car>
+		<name>BMW 8 Series</name>
+		<rent>false</rent>
+		<image>bmw.bmw-8-series-concept001-1.jpg</image>
+		<image>bmw.bmw-8-series-concept003-1.jpg</image>
+		<image>bmw.bmw-8-series-concept007-1.jpg</image>
+		<image>bmw.bmw-8-series-concept010-1.jpg</image>
+		<infoDE>
+			<fuel>Diesel</fuel>
+			<gears>Automatik</gears>
+			<hp>420</hp>
+			<seats>2</seats>
+			<doors>2</doors>
+			<storage>Minden</storage>
+		</infoDE>
+		<infoENG>
+			<fuel>Diesel</fuel>
+			<gears>automatic</gears>
+			<hp>420</hp>
+			<seats>4</seats>
+			<doors>4</doors>
+			<storage>Porta Westfallica</storage>
+		</infoENG>
+ </car>
+
+  <car>
+    <name>Ford GT</name>
+    <rent>false</rent>
+    <image>ford.01-2017-ford-gt-fd-1.jpg</image>
+    <image>ford.04-2017-ford-gt-fd-1.jpg</image>
+    <image>ford.26-2017-ford-gt-fd-1.jpg</image>
+    <image>ford.34-2017-ford-gt-fd-1.jpg</image>
+    <infoDE>
+      <fuel>Benzin</fuel>
+      <gears>Manuell</gears>
+      <hp>550</hp>
+      <seats>2</seats>
+      <doors>2</doors>
+      <storage>Porta Westfallica</storage>
+    </infoDE>
+    <infoENG>
+      <fuel>Petrol</fuel>
+      <gears>Manual</gears>
+      <hp>550</hp>
+      <seats>2</seats>
+      <doors>2</doors>
+      <storage>Porta Westfallica</storage>
+    </infoENG>
+  </car>
+
+  <car>
+    <name>Ferrari LaFerrari 2014 </name>
+    <rent>false</rent>
+    <image>ferrari.hss-storage-midas-3b631a72c465a13a45e3b861d15677be-205190307-1.jpg</image>
+    <image>ferrari.hss-storage-midas-994c14fecc8c90586fda7011b437db06-205190306-1.jpg</image>
+    <image>ferrari.ve17-r106-002-1.jpg</image>
+    <image>ferrari.ve17-r106-009-1.jpg</image>
+    <infoDE>
+      <fuel>Benzin</fuel>
+      <gears>Halbautomatisch</gears>
+      <hp>963</hp>
+      <seats>2</seats>
+      <doors>2</doors>
+      <storage>Porta Westfallica</storage>
+    </infoDE>
+    <infoENG>
+      <fuel>Petrol</fuel>
+      <gears>Semi-automatic</gears>
+      <hp>963</hp>
+      <seats>2</seats>
+      <doors>2</doors>
+      <storage>Porta Westfallica</storage>
+    </infoENG>
+  </car>
+
+  <car>
+    <name>Honda Civic Si 2017 </name>
+    <rent>false</rent>
+    <image>honda.02-2017-honda-civic-si-fd-1.jpg</image>
+    <image>honda.07-2017-honda-civic-si-fd-1.jpg</image>
+    <image>honda.08-2017-honda-civic-si-fd-1.jpg</image>
+    <image>honda.29-2017-honda-civic-si-fd-1.jpg</image>
+    <infoDE>
+      <fuel>Diesel</fuel>
+      <gears>Manuell</gears>
+      <hp>197</hp>
+      <seats>4</seats>
+      <doors>2</doors>
+      <storage>Minden</storage>
+    </infoDE>
+    <infoENG>
+      <fuel>Diesel</fuel>
+      <gears>Manual</gears>
+      <hp>197</hp>
+      <seats>4</seats>
+      <doors>2</doors>
+      <storage>Minden</storage>
+    </infoENG>
+  </car>
+
+  <car>
+    <name>Acura TLX A-Spec 2018 </name>
+    <rent>false</rent>
+    <image>acura.02-2018-acura-tlx-a-spec-fd-1.jpg</image>
+    <image>acura.04-2018-acura-tlx-a-spec-fd-1.jpg</image>
+    <image>acura.07-2018-acura-tlx-a-spec-fd-1.jpg</image>
+    <image>acura.18-2018-acura-tlx-a-spec-fd-1.jpg</image>
+    <infoDE>
+      <fuel>Autogas</fuel>
+      <gears>Manuell</gears>
+      <hp>205</hp>
+      <seats>4</seats>
+      <doors>4</doors>
+      <storage>Minden</storage>
+    </infoDE>
+    <infoENG>
+      <fuel>Gasoline</fuel>
+      <gears>Manual</gears>
+      <hp>205</hp>
+      <seats>4</seats>
+      <doors>4</doors>
+      <storage>Minden</storage>
+    </infoENG>
+  </car>
+  <car>
+    <name>Nissan 370Z 2018</name>
+    <rent>false</rent>
+    <image>nissanz.01-2018-nissan-370z-heritage-edition-ny-1.jpg</image>
+    <image>nissanz.04-2018-nissan-370z-heritage-edition-ny-1.jpg</image>
+    <image>nissanz.07-2018-nissan-370z-heritage-edition-ny-1.jpg</image>
+    <image>nissanz.08-2018-nissan-370z-heritage-edition-ny-1.jpg</image>
+    <infoDE>
+      <fuel>Benzin</fuel>
+      <gears>Automatik</gears>
+      <hp>248</hp>
+      <seats>2</seats>
+      <doors>2</doors>
+      <storage>Minden</storage>
+    </infoDE>
+    <infoENG>
+      <fuel>Petrol</fuel>
+      <gears>Automatic</gears>
+      <hp>248</hp>
+      <seats>2</seats>
+      <doors>2</doors>
+      <storage>Minden</storage>
+    </infoENG>
+  </car>
+
+  <car>
+    <name>Lexus LS 500 2018</name>
+    <rent>false</rent>
+    <image>lexsusls.01-2018-lexus-ls-500-f-sport-ny-1.jpg</image>
+    <image>lexsusls.02-2018-lexus-ls-500-f-sport-ny-1.jpg</image>
+    <image>lexsusls.10-2018-lexus-ls-500-f-sport-ny-1.jpg</image>
+    <image>lexsusls.12-2018-lexus-ls-500-f-sport-ny-1.jpg</image>
+    <infoDE>
+      <fuel>Benzin</fuel>
+      <gears>Automatik</gears>
+      <hp>415</hp>
+      <seats>4</seats>
+      <doors>4</doors>
+      <storage>Minden</storage>
+    </infoDE>
+    <infoENG>
+      <fuel>Petrol</fuel>
+      <gears>Automatic</gears>
+      <hp>415</hp>
+      <seats>4</seats>
+      <doors>4</doors>
+      <storage>Minden</storage>
+    </infoENG>
+  </car>
+
+
+<car>
+    <name>Nissan GT-R 2017 </name>
+    <rent>false</rent>
+    <image>nissangt.01-2017-nissan-gt-r-track-edition-ny-1.jpg</image>
+    <image>nissangt.02-2017-nissan-gt-r-track-edition-ny-1.jpg</image>
+    <image>nissangt.07-2017-nissan-gt-r-track-edition-ny-1.jpg</image>
+    <image>nissangt.09-2017-nissan-gt-r-track-edition-ny-1.jpg</image>
+    <infoDE>
+      <fuel>Benzin</fuel>
+      <gears>Halbautomatisch</gears>
+      <hp>485</hp>
+      <seats>4</seats>
+      <doors>2</doors>
+      <storage>Minden</storage>
+    </infoDE>
+    <infoENG>
+      <fuel>Petrol</fuel>
+      <gears>Semi-Automatic</gears>
+      <hp>485</hp>
+      <seats>4</seats>
+      <doors>2</doors>
+      <storage>Minden</storage>
+    </infoENG>
+  </car>
+
+<car>
+    <name>Dodge Challenger SRT</name>
+    <rent>false</rent>
+    <image>dodge.01-2018-dodge-challenger-srt-demon-ny-1.jpg</image>
+    <image>dodge.10-2018-dodge-challenger-srt-demon-ny-1.jpg</image>
+    <image>dodge.19-2018-dodge-challenger-srt-demon-ny-1.jpg</image>
+    <image>dodge.26-2018-dodge-challenger-srt-demon-ny-1.jpg</image>
+    <infoDE>
+      <fuel>Benzin</fuel>
+      <gears>Halbautomatisch</gears>
+      <hp>707 </hp>
+      <seats>5</seats>
+      <doors>2</doors>
+      <storage>Minden</storage>
+    </infoDE>
+    <infoENG>
+      <fuel>Petrol</fuel>
+      <gears>Semi-Automatic</gears>
+      <hp>707</hp>
+      <seats>5</seats>
+      <doors>2</doors>
+      <storage>Minden</storage>
+    </infoENG>
+  </car>
+
+<car>
+    <name>Aston Martin Vanquish</name>
+    <rent>false</rent>
+    <image>astonmartin.q-by-aston-martin-vanquish-s-red-arrows-edition-01-jpg-1.jpg</image>
+    <image>astonmartin.q-by-aston-martin-vanquish-s-red-arrows-edition-02-jpg-1.jpg</image>
+    <image>astonmartin.q-by-aston-martin-vanquish-s-red-arrows-edition-04-jpg-1.jpg</image>
+    <image>astonmartin.q-by-aston-martin-vanquish-s-red-arrows-edition-05-jpg-1.jpg</image>
+    <infoDE>
+      <fuel>Benzin</fuel>
+      <gears>Manuel</gears>
+      <hp>456</hp>
+      <seats>2</seats>
+      <doors>2</doors>
+      <storage>Minden</storage>
+    </infoDE>
+    <infoENG>
+      <fuel>Petrol</fuel>
+      <gears>Manual</gears>
+      <hp>456</hp>
+      <seats>2</seats>
+      <doors>2</doors>
+      <storage>Minden</storage>
+    </infoENG>
+  </car>
+
+<car>
+    <name>Corvette Carbon 65</name>
+    <rent>false</rent>
+    <image>corvettecarbon.2018-chevrolet-corvette-carbon65-edition-002-2.jpg</image>
+    <image>corvettecarbon.2018-chevrolet-corvette-carbon65-edition-003-2.jpg</image>
+    <image>corvettecarbon.2018-chevrolet-corvette-carbon65-edition-004-2.jpg</image>
+    <image>corvettecarbon.2018-chevrolet-corvette-carbon65-edition-007-2.jpg</image>
+    <infoDE>
+      <fuel>Benzin</fuel>
+      <gears>Automatik</gears>
+      <hp>466</hp>
+      <seats>2</seats>
+      <doors>2</doors>
+      <storage>Porta Westfallica</storage>
+    </infoDE>
+    <infoENG>
+      <fuel>Petrol</fuel>
+      <gears>Automatic</gears>
+      <hp>466</hp>
+      <seats>2</seats>
+      <doors>2</doors>
+      <storage>Porta Westfallica</storage>
+    </infoENG>
+  </car>
+
+<car>
+    <name>Toyota 86 2017</name>
+    <rent>false</rent>
+    <image>toyota86.2017-toyota-86-860-special-edition-01-2873448261d7a06dce50e6-1.jpg</image>
+    <image>toyota86.2017-toyota-86-860-special-edition-07-ac8ca0bd0bb7b98426bb16-1.jpg</image>
+    <image>toyota86.2017-toyota-86-860-special-edition-15-2c9b8c3c795c6116045bbb-1.jpg</image>
+    <image>toyota86.2017-toyota-86-860-special-edition-16-bf6001afbb77c54be9cc06-1.jpg</image>
+    <infoDE>
+      <fuel>Benzin</fuel>
+      <gears>Automatik</gears>
+      <hp>200</hp>
+      <seats>4</seats>
+      <doors>2</doors>
+      <storage>Porta Westfallica</storage>
+    </infoDE>
+    <infoENG>
+      <fuel>Petrol</fuel>
+      <gears>Automatic</gears>
+      <hp>200</hp>
+      <seats>4</seats>
+      <doors>2</doors>
+      <storage>Porta Westfallica</storage>
+    </infoENG>
+  </car>
+
+<car>
+    <name>Pininfarina H600 </name>
+    <rent>false</rent>
+    <image>pini.01-pininfarina-h600-concept-geneva-1.jpg</image>
+    <image>pini.06-pininfarina-h600-concept-geneva-1.jpg</image>
+    <image>pini.08-pininfarina-h600-concept-geneva-1.jpg</image>
+    <image>pini.10-pininfarina-h600-concept-geneva-1.jpg</image>
+    <infoDE>
+      <fuel>Benzin</fuel>
+      <gears>Automatik</gears>
+      <hp>816</hp>
+      <seats>4</seats>
+      <doors>4</doors>
+      <storage>Porta Westfallica</storage>
+    </infoDE>
+    <infoENG>
+      <fuel>Petrol</fuel>
+      <gears>Automatic</gears>
+      <hp>816</hp>
+      <seats>4</seats>
+      <doors>4</doors>
+      <storage>Porta Westfallica</storage>
+    </infoENG>
+  </car>
+
+<car>
+    <name>Audi Q8 Sport</name>
+    <rent>false</rent>
+    <image>audiq.01-audi-q8-sport-concept-geneva-1.jpg</image>
+    <image>audiq.05-audi-q8-sport-concept-geneva-1.jpg</image>
+    <image>audiq.06-audi-q8-sport-concept-geneva-1.jpg</image>
+    <image>audiq.11-audi-q8-sport-concept-geneva-1.jpg</image>
+    <infoDE>
+      <fuel>Benzin</fuel>
+      <gears>Automatik</gears>
+      <hp>333</hp>
+      <seats>4</seats>
+      <doors>4</doors>
+      <storage>Porta Westfallica</storage>
+    </infoDE>
+    <infoENG>
+      <fuel>Petrol</fuel>
+      <gears>Automatic</gears>
+      <hp>333</hp>
+      <seats>4</seats>
+      <doors>4</doors>
+      <storage>Porta Westfallica</storage>
+    </infoENG>
+  </car>
+
+<car>
+    <name>Alpine A110</name>
+    <rent>false</rent>
+    <image>alpine.01-alpine-a110-geneva-1.jpg</image>
+    <image>alpine.04-alpine-a110-geneva-1.jpg</image>
+    <image>alpine.08-alpine-a110-geneva-1.jpg</image>
+    <image>alpine.09-alpine-a110-geneva-1.jpg</image>
+    <infoDE>
+      <fuel>Benzin</fuel>
+      <gears>Automatik</gears>
+      <hp>252</hp>
+      <seats>2</seats>
+      <doors>2</doors>
+      <storage>Minden</storage>
+    </infoDE>
+    <infoENG>
+      <fuel>Petrol</fuel>
+      <gears>Automatic</gears>
+      <hp>252</hp>
+      <seats>2</seats>
+      <doors>2</doors>
+      <storage>Minden</storage>
+    </infoENG>
+  </car>
+
+<car>
+    <name>BMW 5 Series 2017</name>
+    <rent>false</rent>
+    <image>bmwseries.01-2017-bmw-5-series-touring-geneva-1.jpg</image>
+    <image>bmwseries.05-2017-bmw-5-series-touring-geneva-1.jpg</image>
+    <image>bmwseries.08-2017-bmw-5-series-touring-geneva-1.jpg</image>
+    <image>bmwseries.10-2017-bmw-5-series-touring-geneva-1.jpg</image>
+    <infoDE>
+      <fuel>Benzin</fuel>
+      <gears>Manuel</gears>
+      <hp>450</hp>
+      <seats>5</seats>
+      <doors>4</doors>
+      <storage>Minden</storage>
+    </infoDE>
+    <infoENG>
+      <fuel>Petrol</fuel>
+      <gears>Manual</gears>
+      <hp>450</hp>
+      <seats>5</seats>
+      <doors>4</doors>
+      <storage>Minden</storage>
+    </infoENG>
+  </car>
+
+<car>
+    <name>Nissan Qashqai 2017</name>
+    <rent>false</rent>
+    <image>nissank.01-2017-nissan-qashqai-geneva-1.jpg</image>
+    <image>nissank.03-2017-nissan-qashqai-geneva-1.jpg</image>
+    <image>nissank.06-2017-nissan-qashqai-geneva-1.jpg</image>
+    <image>nissank.08-2017-nissan-qashqai-geneva-1.jpg</image>
+    <infoDE>
+      <fuel>Benzin</fuel>
+      <gears>Manuel</gears>
+      <hp>115</hp>
+      <seats>5</seats>
+      <doors>4</doors>
+      <storage>Minden</storage>
+    </infoDE>
+    <infoENG>
+      <fuel>Petrol</fuel>
+      <gears>Manual</gears>
+      <hp>115</hp>
+      <seats>5</seats>
+      <doors>4</doors>
+      <storage>Minden</storage>
+    </infoENG>
+  </car>
+
+<car>
+    <name>Ferrari 812 Superfast</name>
+    <rent>false</rent>
+    <image>ferrarifast.01-ferrari-812-superfast-geneva-1.jpg</image>
+    <image>ferrarifast.04-ferrari-812-superfast-geneva-1.jpg</image>
+    <image>ferrarifast.06-ferrari-812-superfast-geneva-1.jpg</image>
+    <image>ferrarifast.09-ferrari-812-superfast-geneva-1.jpg</image>
+     
+    <infoDE>
+      <fuel>Benzin</fuel>
+      <gears>Automatik</gears>
+      <hp>800</hp>
+      <seats>2</seats>
+      <doors>2</doors>
+      <storage>Minden</storage>
+    </infoDE>
+    <infoENG>
+      <fuel>Petrol</fuel>
+      <gears>Automatic</gears>
+      <hp>800</hp>
+      <seats>2</seats>
+      <doors>2</doors>
+      <storage>Minden</storage>
+    </infoENG>
+  </car>
+
+<car>
+    <name>Volkswagen Golf R</name>
+    <rent>false</rent>
+    <image>vwgolf.golf-r-rear-1.jpg</image>
+    <image>vwgolf.golf-r-light-1.jpg</image>
+    <image>vwgolf.golf-r-badge-1.jpg</image>
+    <image>vwgolf.golf-r-wheel-1.jpg</image>
+     
+    <infoDE>
+      <fuel>Benzin</fuel>
+      <gears>Manuel</gears>
+      <hp>300</hp>
+      <seats>5</seats>
+      <doors>4</doors>
+      <storage>Minden</storage>
+    </infoDE>
+    <infoENG>
+      <fuel>Petrol</fuel>
+      <gears>Manual</gears>
+      <hp>300</hp>
+      <seats>5</seats>
+      <doors>4</doors>
+      <storage>Minden</storage>
+    </infoENG>
+  </car>
+
+<car>
+    <name>Lamborghini Huracan</name>
+    <rent>false</rent>
+    <image>huri.hurac-n-performante-low-1-1.jpg</image>
+    <image>huri.hurac-n-performante-interior-low-1.jpg</image>
+    <image>huri.hurac-n-performante-low-2-1.jpg</image>
+    <image>huri.hurac-n-performante-low-4-1.jpg</image>
+     
+    <infoDE>
+      <fuel>Benzin</fuel>
+      <gears>Halbautomatisch</gears>
+      <hp>640</hp>
+      <seats>2</seats>
+      <doors>2</doors>
+      <storage>Porta Westfallica</storage>
+    </infoDE>
+    <infoENG>
+      <fuel>Petrol</fuel>
+      <gears>Semi-Automatic</gears>
+      <hp>640</hp>
+      <seats>2</seats>
+      <doors>2</doors>
+      <storage>Porta Westfallica</storage>
+    </infoENG>
+  </car>
+
+<car>
+    <name>Automobili Zerouno</name>
+    <rent>false</rent>
+    <image>zero.italdesign-automobili-speciali-geneva-2017-1-1.jpg</image>
+    <image>zero.italdesign-automobili-speciali-geneva-2017-2-1.jpg</image>
+    <image>zero.italdesign-automobili-speciali-geneva-2017-3-1.jpg</image>
+    <image>zero.italdesign-automobili-speciali-zerouno-2-1.jpg</image>
+     
+    <infoDE>
+      <fuel>Benzin</fuel>
+      <gears>Halbautomatisch</gears>
+      <hp>610</hp>
+      <seats>2</seats>
+      <doors>2</doors>
+      <storage>Porta Westfallica</storage>
+    </infoDE>
+    <infoENG>
+      <fuel>Petrol</fuel>
+      <gears>Semi-Automatic</gears>
+      <hp>610</hp>
+      <seats>2</seats>
+      <doors>2</doors>
+      <storage>Porta Westfallica</storage>
+    </infoENG>
+  </car>
+
+<car>
+    <name>Chevrolet Sonic 2017</name>
+    <rent>false</rent>
+    <image>sonic.chevy-sonic-01-1.jpg</image>
+    <image>sonic.chevy-sonic-02-1.jpg</image>
+    <image>sonic.chevy-sonic-05-1.jpg</image>
+    <image>sonic.chevy-sonic-06-1.jpg</image>
+     
+    <infoDE>
+      <fuel>Benzin</fuel>
+      <gears>Manuel</gears>
+      <hp>138</hp>
+      <seats>5</seats>
+      <doors>2</doors>
+      <storage>Minden</storage>
+    </infoDE>
+    <infoENG>
+      <fuel>Petrol</fuel>
+      <gears>Manual</gears>
+      <hp>138</hp>
+      <seats>5</seats>
+      <doors>2</doors>
+      <storage>Minden</storage>
+    </infoENG>
+  </car>
+
+<car>
+    <name>Ford Shelby GT-H</name>
+    <rent>false</rent>
+    <image>shelby.2016-ford-shelby-gt-h-hertz-001-1.jpg</image>
+    <image>shelby.2016-ford-shelby-gt-h-hertz-003-1.jpg</image>
+    <image>shelby.2016-ford-shelby-gt-h-hertz-004-1.jpg</image>
+    <image>shelby.2016-ford-shelby-gt-h-hertz-009-1.jpg</image>
+     
+    <infoDE>
+      <fuel>Benzin</fuel>
+      <gears>Halbautomatisch</gears>
+      <hp>662</hp>
+      <seats>2</seats>
+      <doors>2</doors>
+      <storage>Porta Westfallica</storage>
+    </infoDE>
+    <infoENG>
+      <fuel>Petrol</fuel>
+      <gears>Semi-Automatic</gears>
+      <hp>662</hp>
+      <seats>2</seats>
+      <doors>2</doors>
+      <storage>Porta Westfallica</storage>
+    </infoENG>
+  </car>
+
+<car>
+    <name>Mercedes-AMG GT S</name>
+    <rent>false</rent>
+    <image>merc.01-2018-mercedes-amg-gt-s-detroit-1.jpg</image>
+    <image>merc.02-2018-mercedes-amg-gt-s-detroit-1.jpg</image>
+    <image>merc.03-2018-mercedes-amg-gt-s-detroit-1.jpg</image>
+    <image>merc.08-2018-mercedes-amg-gt-s-detroit-1.jpg</image>
+     
+    <infoDE>
+      <fuel>Benzin</fuel>
+      <gears>Halbautomatisch</gears>
+      <hp>510</hp>
+      <seats>2</seats>
+      <doors>2</doors>
+      <storage>Porta Westfallica</storage>
+    </infoDE>
+    <infoENG>
+      <fuel>Petrol</fuel>
+      <gears>Semi-Automatic</gears>
+      <hp>510</hp>
+      <seats>2</seats>
+      <doors>2</doors>
+      <storage>Porta Westfallica</storage>
+    </infoENG>
+  </car>
+
+<car>
+    <name>Jaguar F-Type 400</name>
+    <rent>false</rent>
+    <image>jaguar.jaguarftype18my400slocationexterior10011701-1-1.jpg</image>
+    <image>jaguar.jaguarftype18my400slocationexterior10011702-1.jpg</image>
+    <image>jaguar.jaguarftype18my400slocationexterior10011706-1.jpg</image>
+    <image>jaguar.jaguarftype18my400slocationexterior10011707-1-1.jpg</image>
+     
+    <infoDE>
+      <fuel>Benzin</fuel>
+      <gears>Halbautomatisch</gears>
+      <hp>400</hp>
+      <seats>2</seats>
+      <doors>2</doors>
+      <storage>Porta Westfallica</storage>
+    </infoDE>
+    <infoENG>
+      <fuel>Petrol</fuel>
+      <gears>Semi-Automatic</gears>
+      <hp>400</hp>
+      <seats>2</seats>
+      <doors>2</doors>
+      <storage>Porta Westfallica</storage>
+    </infoENG>
+  </car>
+
+<car>
+    <name>Lamborghini Miura SV</name>
+    <rent>false</rent>
+    <image>miura.lamborghini-miura-01-1.jpg</image>
+    <image>miura.lamborghini-miura-03-1.jpg</image>
+    <image>miura.lamborghini-miura-04-1.jpg</image>
+    <image>miura.lamborghini-miura-05-1.jpg</image>
+     
+    <infoDE>
+      <fuel>Benzin</fuel>
+      <gears>Manuel</gears>
+      <hp>390</hp>
+      <seats>2</seats>
+      <doors>2</doors>
+      <storage>Porta Westfallica</storage>
+    </infoDE>
+    <infoENG>
+      <fuel>Petrol</fuel>
+      <gears>Manual</gears>
+      <hp>390</hp>
+      <seats>2</seats>
+      <doors>2</doors>
+      <storage>Porta Westfallica</storage>
+    </infoENG>
+  </car>
+</carlist>
+

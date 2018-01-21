@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rentlist>
+	<rent>
+		<car>0</car>
+		<user>0<user>
+		<date>
+			<year>2017</year>
+			<month>5</month>
+			<day>26</day>
+		</date>
+		<date>
+			<year>2017</year>
+			<month>5</month>
+			<day>30</day>
+		</date>
+	</rent>
+</rentlist>

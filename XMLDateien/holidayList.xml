@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<holidaylist>
+	<holiday>
+		<name>Pfingstmontag</name>
+		<year>2017</year>
+		<month>6</month>
+		<day>5</day>
+	</holiday>
+</holidaylist>

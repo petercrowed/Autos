@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<carlist>
+	<car>
+		<name>Impala</name>
+		<rent>false</rent>
+		<image>5x22_ImpalaMain.jpg</image>
+		<image>1967Impala_4.jpg</image>
+		<image>supernatural-impala-0005.jpg</image>
+		<image>c46241330321b50f5b4072063ec43ae1.jpg</image>
+		<info>Schickes Auto</info>
+  	</car>
+	<car>
+		<name>Chevelle</name>
+		<rent>false</rent>
+		<image>blue-1970-Chevy-Chevelle-SS-454-.png</image>
+		<image>1970-Chevrolet-Chevelle-SS-454-24.jpg</image>
+		<image>1970-Chevy-Chevelle-SS-454-.png</image>
+		<image>maxresdefault.jpg</image>
+		<info>Schickes Auto</info>
+  	</car>
+</carlist>

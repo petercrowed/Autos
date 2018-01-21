@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1DF61220-B830-403E-AF9F-A38A76C705D0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>eeProGUI</RootNamespace>
+    <AssemblyName>eeProGUI</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>autoIcon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>eeProGUI.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Adress.cs" />
+    <Compile Include="Auto.cs" />
+    <Compile Include="Car.cs" />
+    <Compile Include="ChangeRentButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DeleteRentButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DeleteRentButtonAdminSettings.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="frInfoWindows.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frInfoWindows.Designer.cs">
+      <DependentUpon>frInfoWindows.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frLeihschein.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frLeihschein.Designer.cs">
+      <DependentUpon>frLeihschein.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frLogIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frLogIn.Designer.cs">
+      <DependentUpon>frLogIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frMain.Designer.cs">
+      <DependentUpon>frMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frNewHoliday.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frNewHoliday.Designer.cs">
+      <DependentUpon>frNewHoliday.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frRentMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frRentMenu.Designer.cs">
+      <DependentUpon>frRentMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frHelpWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frHelpWindow.Designer.cs">
+      <DependentUpon>frHelpWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frUserInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frUserInfo.Designer.cs">
+      <DependentUpon>frUserInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HolidaySaveButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="HolidaysDeleteButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="LeihscheinButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="lockCarButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rents.cs" />
+    <Compile Include="RentList.cs" />
+    <Compile Include="MyXmlParser.cs" />
+    <Compile Include="User.cs" />
+    <EmbeddedResource Include="frInfoWindows.resx">
+      <DependentUpon>frInfoWindows.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frLeihschein.en-DE.resx">
+      <DependentUpon>frLeihschein.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frLeihschein.resx">
+      <DependentUpon>frLeihschein.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frLogIn.resx">
+      <DependentUpon>frLogIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frMain.en-DE.resx">
+      <DependentUpon>frMain.cs</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frMain.resx">
+      <DependentUpon>frMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frNewHoliday.resx">
+      <DependentUpon>frNewHoliday.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frRentMenu.resx">
+      <DependentUpon>frRentMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frHelpWindow.resx">
+      <DependentUpon>frHelpWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frUserInfo.resx">
+      <DependentUpon>frUserInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="carSchema.xsd">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="userSchema.xsd">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\1970-Chevrolet-Chevelle-SS-454-24.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\1970-Chevy-Chevelle-SS-454-.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\blue-1970-Chevy-Chevelle-SS-454-.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\maxresdefault.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PanelH.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PfeilL.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PfeilR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\5x22_ImpalaMain.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\1967Impala_4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\c46241330321b50f5b4072063ec43ae1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\supernatural-impala-0005.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="autoIcon.ico" />
+    <Content Include="carList.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <EmbeddedResource Include="Resources\porshe911\01-2017-porsche-911-targa-4-gts-fd-1.jpg" />
+    <EmbeddedResource Include="Resources\porshe911\02-2017-porsche-911-targa-4-gts-fd-1.jpg" />
+    <EmbeddedResource Include="Resources\porshe911\07-2017-porsche-911-targa-4-gts-fd-1.jpg" />
+    <EmbeddedResource Include="Resources\porshe911\19-2017-porsche-911-targa-4-gts-fd-1.jpg" />
+    <EmbeddedResource Include="Resources\impala\1967Impala_4.jpg" />
+    <EmbeddedResource Include="Resources\impala\5x22_ImpalaMain.jpg" />
+    <EmbeddedResource Include="Resources\impala\c46241330321b50f5b4072063ec43ae1.jpg" />
+    <EmbeddedResource Include="Resources\impala\supernatural-impala-0005.jpg" />
+    <EmbeddedResource Include="Resources\corvette\01-callaway-corvette-sc757-aerowagen-fd-1.jpg" />
+    <EmbeddedResource Include="Resources\corvette\02-callaway-corvette-sc757-aerowagen-fd-1.jpg" />
+    <EmbeddedResource Include="Resources\corvette\05-callaway-corvette-sc757-aerowagen-fd-1.jpg" />
+    <EmbeddedResource Include="Resources\corvette\11-callaway-corvette-sc757-aerowagen-fd-1.jpg" />
+    <EmbeddedResource Include="Resources\chevy\1970-Chevrolet-Chevelle-SS-454-24.jpg" />
+    <EmbeddedResource Include="Resources\chevy\1970-Chevy-Chevelle-SS-454-.png" />
+    <EmbeddedResource Include="Resources\chevy\blue-1970-Chevy-Chevelle-SS-454-.png" />
+    <EmbeddedResource Include="Resources\chevy\maxresdefault.jpg" />
+    <Content Include="holidayList.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="rentList.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <EmbeddedResource Include="Resources\bmw\bmw-8-series-concept001-1.jpg" />
+    <EmbeddedResource Include="Resources\bmw\bmw-8-series-concept003-1.jpg" />
+    <EmbeddedResource Include="Resources\bmw\bmw-8-series-concept007-1.jpg" />
+    <EmbeddedResource Include="Resources\bmw\bmw-8-series-concept010-1.jpg" />
+    <EmbeddedResource Include="Resources\acura\02-2018-acura-tlx-a-spec-fd-1.jpg" />
+    <EmbeddedResource Include="Resources\acura\04-2018-acura-tlx-a-spec-fd-1.jpg" />
+    <EmbeddedResource Include="Resources\acura\07-2018-acura-tlx-a-spec-fd-1.jpg" />
+    <EmbeddedResource Include="Resources\acura\18-2018-acura-tlx-a-spec-fd-1.jpg" />
+    <EmbeddedResource Include="Resources\ferrari\hss-storage-midas-3b631a72c465a13a45e3b861d15677be-205190307-1.jpg" />
+    <EmbeddedResource Include="Resources\ferrari\hss-storage-midas-994c14fecc8c90586fda7011b437db06-205190306-1.jpg" />
+    <EmbeddedResource Include="Resources\ferrari\ve17-r106-002-1.jpg" />
+    <EmbeddedResource Include="Resources\ferrari\ve17-r106-009-1.jpg" />
+    <EmbeddedResource Include="Resources\ford\01-2017-ford-gt-fd-1.jpg" />
+    <EmbeddedResource Include="Resources\ford\04-2017-ford-gt-fd-1.jpg" />
+    <EmbeddedResource Include="Resources\ford\26-2017-ford-gt-fd-1.jpg" />
+    <EmbeddedResource Include="Resources\ford\34-2017-ford-gt-fd-1.jpg" />
+    <EmbeddedResource Include="Resources\honda\02-2017-honda-civic-si-fd-1.jpg" />
+    <EmbeddedResource Include="Resources\honda\07-2017-honda-civic-si-fd-1.jpg" />
+    <EmbeddedResource Include="Resources\honda\08-2017-honda-civic-si-fd-1.jpg" />
+    <EmbeddedResource Include="Resources\honda\29-2017-honda-civic-si-fd-1.jpg" />
+    <None Include="Resources\help_white.png" />
+    <None Include="Resources\helpicon.png" />
+    <None Include="Resources\TextFile1.txt" />
+    <EmbeddedResource Include="Resources\nissanz\01-2018-nissan-370z-heritage-edition-ny-1.jpg" />
+    <EmbeddedResource Include="Resources\nissanz\04-2018-nissan-370z-heritage-edition-ny-1.jpg" />
+    <EmbeddedResource Include="Resources\nissanz\07-2018-nissan-370z-heritage-edition-ny-1.jpg" />
+    <EmbeddedResource Include="Resources\nissanz\08-2018-nissan-370z-heritage-edition-ny-1.jpg" />
+    <EmbeddedResource Include="Resources\lexsusls\01-2018-lexus-ls-500-f-sport-ny-1.jpg" />
+    <EmbeddedResource Include="Resources\lexsusls\02-2018-lexus-ls-500-f-sport-ny-1.jpg" />
+    <EmbeddedResource Include="Resources\lexsusls\10-2018-lexus-ls-500-f-sport-ny-1.jpg" />
+    <EmbeddedResource Include="Resources\lexsusls\12-2018-lexus-ls-500-f-sport-ny-1.jpg" />
+    <EmbeddedResource Include="Resources\nissangt\01-2017-nissan-gt-r-track-edition-ny-1.jpg" />
+    <EmbeddedResource Include="Resources\nissangt\02-2017-nissan-gt-r-track-edition-ny-1.jpg" />
+    <EmbeddedResource Include="Resources\nissangt\07-2017-nissan-gt-r-track-edition-ny-1.jpg" />
+    <EmbeddedResource Include="Resources\nissangt\09-2017-nissan-gt-r-track-edition-ny-1.jpg" />
+    <EmbeddedResource Include="Resources\dodge\01-2018-dodge-challenger-srt-demon-ny-1.jpg" />
+    <EmbeddedResource Include="Resources\dodge\10-2018-dodge-challenger-srt-demon-ny-1.jpg" />
+    <EmbeddedResource Include="Resources\dodge\19-2018-dodge-challenger-srt-demon-ny-1.jpg" />
+    <EmbeddedResource Include="Resources\dodge\26-2018-dodge-challenger-srt-demon-ny-1.jpg" />
+    <EmbeddedResource Include="Resources\astonmartin\q-by-aston-martin-vanquish-s-red-arrows-edition-01-jpg-1.jpg" />
+    <EmbeddedResource Include="Resources\astonmartin\q-by-aston-martin-vanquish-s-red-arrows-edition-02-jpg-1.jpg" />
+    <EmbeddedResource Include="Resources\astonmartin\q-by-aston-martin-vanquish-s-red-arrows-edition-04-jpg-1.jpg" />
+    <EmbeddedResource Include="Resources\astonmartin\q-by-aston-martin-vanquish-s-red-arrows-edition-05-jpg-1.jpg" />
+    <EmbeddedResource Include="Resources\corvettecarbon\2018-chevrolet-corvette-carbon65-edition-002-2.jpg" />
+    <EmbeddedResource Include="Resources\corvettecarbon\2018-chevrolet-corvette-carbon65-edition-003-2.jpg" />
+    <EmbeddedResource Include="Resources\corvettecarbon\2018-chevrolet-corvette-carbon65-edition-004-2.jpg" />
+    <EmbeddedResource Include="Resources\corvettecarbon\2018-chevrolet-corvette-carbon65-edition-007-2.jpg" />
+    <EmbeddedResource Include="Resources\toyota86\2017-toyota-86-860-special-edition-01-2873448261d7a06dce50e6-1.jpg" />
+    <EmbeddedResource Include="Resources\toyota86\2017-toyota-86-860-special-edition-07-ac8ca0bd0bb7b98426bb16-1.jpg" />
+    <EmbeddedResource Include="Resources\toyota86\2017-toyota-86-860-special-edition-15-2c9b8c3c795c6116045bbb-1.jpg" />
+    <EmbeddedResource Include="Resources\toyota86\2017-toyota-86-860-special-edition-16-bf6001afbb77c54be9cc06-1.jpg" />
+    <EmbeddedResource Include="Resources\pini\01-pininfarina-h600-concept-geneva-1.jpg" />
+    <EmbeddedResource Include="Resources\pini\06-pininfarina-h600-concept-geneva-1.jpg" />
+    <EmbeddedResource Include="Resources\pini\08-pininfarina-h600-concept-geneva-1.jpg" />
+    <EmbeddedResource Include="Resources\pini\10-pininfarina-h600-concept-geneva-1.jpg" />
+    <EmbeddedResource Include="Resources\audiq\01-audi-q8-sport-concept-geneva-1.jpg" />
+    <EmbeddedResource Include="Resources\audiq\05-audi-q8-sport-concept-geneva-1.jpg" />
+    <EmbeddedResource Include="Resources\audiq\06-audi-q8-sport-concept-geneva-1.jpg" />
+    <EmbeddedResource Include="Resources\audiq\11-audi-q8-sport-concept-geneva-1.jpg" />
+    <EmbeddedResource Include="Resources\alpine\01-alpine-a110-geneva-1.jpg" />
+    <EmbeddedResource Include="Resources\alpine\04-alpine-a110-geneva-1.jpg" />
+    <EmbeddedResource Include="Resources\alpine\08-alpine-a110-geneva-1.jpg" />
+    <EmbeddedResource Include="Resources\alpine\09-alpine-a110-geneva-1.jpg" />
+    <EmbeddedResource Include="Resources\bmwseries\01-2017-bmw-5-series-touring-geneva-1.jpg" />
+    <EmbeddedResource Include="Resources\bmwseries\05-2017-bmw-5-series-touring-geneva-1.jpg" />
+    <EmbeddedResource Include="Resources\bmwseries\08-2017-bmw-5-series-touring-geneva-1.jpg" />
+    <EmbeddedResource Include="Resources\bmwseries\10-2017-bmw-5-series-touring-geneva-1.jpg" />
+    <Content Include="userListe.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
